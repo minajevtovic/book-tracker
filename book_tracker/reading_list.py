@@ -16,7 +16,6 @@ class ReadingList:
         if book in self.books:
             self.books.remove(book)
             print(f"The book {book.title} has been removed from the reading list")
-
         else:
             print(f"The book {book.title} is not on the list")
 
