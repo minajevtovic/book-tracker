@@ -42,6 +42,6 @@ class Book:
         elif not isinstance(score,int):
             raise TypeError("The rating has to be an integer")
         elif score not in range(0,6):
-            raise TypeError("The rating has to be between 0 and 5")
+            raise ValueError("The rating has to be between 0 and 5")
         else:
             self.rating = score
