@@ -28,6 +28,7 @@ book_tracker/
 ├── review.py            # (Optional) Placeholder for user reviews
 ├── main.py              # CLI logic - run this to use the app
 ├── unit_tests.py        # Basic unit tests (to be expanded)
+├── reading_list.json    # Auto-generated file for persistence
 ```
 
 ---
@@ -70,8 +71,9 @@ Follow the interactive menu to add, view, or remove books.
 
 ## 🛣️ Roadmap
 
-- [ ] Add persistence (save books to a file)
-- [ ] Implement reviews (`review.py`)
-- [ ] Add search and filter by genre/language
-- [ ] Create a Streamlit UI version
-- [ ] Add unit tests using `pytest`
+- [x] Add persistence (save/load JSON)
+- [ ] Add reviews (`review.py`)
+- [ ] Search and filter books by genre/language
+- [ ] Add a Streamlit UI version
+- [ ] Add unit tests with `pytest`
+- [ ] Optional encryption for saved data
