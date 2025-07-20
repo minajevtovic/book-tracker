@@ -1,4 +1,3 @@
-import json
 from pathlib import Path
 
 from book import ALLOWED_GENRES, Book
